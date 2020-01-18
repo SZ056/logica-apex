@@ -17,16 +17,15 @@
 		//que 7 e maior ou igual a 5 escreva a mensagem “Conceito C”, se a nota for menor que 5 escreva
 		//a mensagem “Conceito Insuficiente”;
 
-		let notaAluno1 = window.prompt('Informe nota do primeiro aluno/a.');
-		let notaAluno2 = window.prompt('Informe nota do segundo aluno/a.');
-		let notaAluno3 = window.prompt('Informe nota do terceiro aluno/a.');
+		let notaAluno1 = parseInt(window.prompt('Informe nota do primeiro aluno/a.'));
+		let notaAluno2 = parseInt(window.prompt('Informe nota do segundo aluno/a.'));
+		let notaAluno3 = parseInt(window.prompt('Informe nota do terceiro aluno/a.'));
 
-		notaAluno1 = parseInt(notaAluno1);
-		notaAluno2 = parseInt(notaAluno2);
-		notaAluno3 = parseInt(notaAluno3);
+		//notaAluno1 = parseInt(notaAluno1);
+		//notaAluno2 = parseInt(notaAluno2);
+		//notaAluno3 = parseInt(notaAluno3);
 
-		let somaNotas = notaAluno1 + notaAluno2 + notaAluno3
-		let mediaNotas = somaNotas / 3
+		let mediaNotas = (notaAluno1 + notaAluno2 + notaAluno3) / 3;
 		//let mediaNotas
 
 		if (mediaNotas >= 9) (document.write('Conceito A.')); //maior ou igual a 9
