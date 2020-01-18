@@ -9,12 +9,18 @@
 
 <body>
 	<script>
-		let numeroSec = Math.random() * (50+1);
+		let numeroSec = Math.random() * (50 + 1);
 		let numeroDig = window.prompt('Digite um número entre 1 e 50.');
 
 		numeroDig = parseInt(numeroDig);
 
-		if(numeroDig && numeroDig === numeroSec)(document.write('<h1> Parabéns, você acertou. O número era '+numeroSec+'.</h1>'));
+		if (numeroDig && numeroDig === numeroSec) (
+			document.write('<h1> Parabéns, você acertou. O número era ' + numeroSec + '.</h1>')
+		);
+
+		else (
+			document.write('Errou.')
+		);
 	</script>
 </body>
 
