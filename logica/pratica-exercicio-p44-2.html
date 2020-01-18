@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+	<title></title>
+</head>
+
+<body>
+	<script>
+
+		//Escreva um script que solicite o nome de um dos três países com mais títulos da copa do mundo,
+		//em seguida escreva uma mensagem ao usuário informando se a resposta está correta ou
+		//errada. Considere os três países com mais títulos como sendo BRASIL, ITÁLIA E ALEMANHA.
+		//(Dica: tente utilizar um switch sem breaks).
+
+		let paisTitulos = window.prompt('Indique o nome de um dos três países com mais títulos da Copa Mundial.')
+
+		switch (paisTitulos) {
+			case "Brasil":
+			case "Alemanha":
+			case "Itália":
+				document.write('Resposta correta.')
+				break
+			default:
+				document.write('Resposta errada.')
+				break
+		}
+
+	</script>
+</body>
+
+</html>
